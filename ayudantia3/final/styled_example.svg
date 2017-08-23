@@ -1,0 +1,29 @@
+<svg height="200px" width="200px"
+   xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events"
+   xmlns:xlink="http://www.w3.org/1999/xlink">
+   <style>
+    rect {
+        stroke: violet;
+        stroke-width: 5px;
+        stroke-opacity: 0.8;
+    }
+    .bar{
+        fill: blue;
+        fill-opacity: 0.5;
+    }
+    .left{
+        rx: 5px;
+        ry: 15px;
+    }
+    .right{
+        rx: 15px;
+    }
+    #favorita {
+        stroke: purple;
+    }
+   </style>
+    <rect class="bar left" width="50" height="50" x="48" y="48" />
+    <rect class="bar left" id="favorita" width="50" height="50" x="48" y="102" />
+    <rect class="bar right" width="50" height="50" x="102" y="102" />
+    <rect class="bar right" width="50" height="50" x="102" y="48" />
+</svg>

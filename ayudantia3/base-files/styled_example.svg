@@ -1,7 +1,6 @@
 <svg height="200px" width="200px"
    xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events"
    xmlns:xlink="http://www.w3.org/1999/xlink">
-
     <rect width="50" height="50" x="48" y="48" />
     <rect width="50" height="50" x="48" y="102" />
     <rect width="50" height="50" x="102" y="102" />
