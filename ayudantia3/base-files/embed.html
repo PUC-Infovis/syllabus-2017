@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>test</title>
+    <link href='test.css' rel='stylesheet'>
+  </head>
+  <style>
+    #mi-div {
+        height: 200px;
+        width: 200px;
+        background-image: url(example.svg);
+    }
+  </style>
+
+  <body>
+    <h1> HTML con SVG embebido </h1>
+    <h2> SVG via object</h2>
+    <object type="image/svg+xml" data="example.svg">
+        Your browser does not support SVG
+    </object>
+    <p>Aquí podemos notar que a alguien no le gusta windows, aún así, usa windows.</p>
+    <h2> SVG via embed </h2>
+    <embed type="image/svg+xml" src="example.svg" />
+    <h2> SVG via iframe </h2>
+    <iframe src="example.svg">
+        Your browser does not support iframes
+    </iframe>
+    <h2> SVG inline </h2>
+    <svg height="200px" width="200px">
+        <rect width="50" height="50" x="48" y="48" fill="red"/>
+        <rect width="50" height="50" x="48" y="102" fill="blue"/>
+        <rect width="50" height="50" x="102" y="102" fill="yellow"/>
+        <rect width="50" height="50" x="102" y="48" fill="green"/>
+        <circle r="95" fill="none" stroke="red" stroke-width="10" cx="100" cy="100" />
+        <line x1="0" y1="200" x2="200" y2="0" stroke="red" stroke-width="10"/>
+        <text x="65" y="175"> No please</text>
+        <path d="M180 180 L190 190 L200 180 L190 200
+            M170 180 L180 190 L190 180 L180 200 " fill="orange" />
+    </svg>
+    <h2> SVG via img </h2>
+    <img src="example.svg" />
+    <h2> SVG como fondo </h2>
+    <div id="mi-div">
+
+    </div>
+  </body>
+</html>
