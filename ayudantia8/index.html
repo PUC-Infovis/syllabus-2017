@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>DCC Bubblechart</title>
+    <style media='screen'>
+          body {
+              margin: 3em auto;
+              max-width: 600px;
+          }
+
+          svg {
+              background-color: #049;
+          }
+
+          g, text {
+              fill: #EEE;
+          }
+
+          #chart {
+              clip-path: url(#clip);
+          }
+    </style>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.10.2/d3.js'
+            charset='utf-8'></script>
+    </head>
+    <body>
+      <div id='container'></div>
+      <input id='enter-input' type='number' value="0">
+      <input id='update-input' type='number' value="0">
+      <input id='exit-input' type='number' value="0">
+      <input id='go-button' type='button' value="Go!">
+      <script src='names.js' charset='utf-8'></script>
+      <script src='utils.js' charset='utf-8'></script>
+      <script src='script.js' charset='utf-8'></script>
+  </body>
+</html>

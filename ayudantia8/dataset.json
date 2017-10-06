@@ -1,0 +1,98 @@
+[
+    {
+        "firstname": "Marcelo",
+        "lastname": "Arenas",
+        "age": 44,
+        "ns1": 8,
+        "ns2": 29,
+        "gscholar": 6590
+    },
+    {
+        "firstname": "Jorge",
+        "lastname": "Baier",
+        "age": 45,
+        "ns1": 81,
+        "ns2": 110,
+        "gscholar": 869
+    },
+    {
+        "firstname": "Valeria",
+        "lastname": "Herksovic",
+        "age": 36,
+        "ns1": 79,
+        "ns2": 89,
+        "gscholar": 497
+    },
+    {
+        "firstname": "Hans",
+        "lastname": "Löbel",
+        "age": 34,
+        "ns1": 104,
+        "ns2": 159,
+        "gscholar": 119
+    },
+    {
+        "firstname": "Domingo",
+        "lastname": "Mery",
+        "age": 52,
+        "ns1": 25,
+        "ns2": 8,
+        "gscholar": 3187
+    },
+    {
+        "firstname": "Miguel",
+        "lastname": "Nussbaum",
+        "age": 62,
+        "ns1": 35,
+        "ns2": 54,
+        "gscholar": 5409
+    },
+    {
+        "firstname": "Denis",
+        "lastname": "Parra",
+        "age": 38,
+        "ns1": 87,
+        "ns2": 45,
+        "gscholar": 629
+    },
+    {
+        "firstname": "Karim",
+        "lastname": "Pichara",
+        "age": 38,
+        "ns1": 44,
+        "ns2": 35,
+        "gscholar": 134
+    },
+    {
+        "firstname": "Juan",
+        "lastname": "Reutter",
+        "age": 34,
+        "ns1": 121,
+        "ns2": 23,
+        "gscholar": 579
+    },
+    {
+        "firstname": "Cristian",
+        "lastname": "Riveros",
+        "age": 34,
+        "ns1": 146,
+        "ns2": 26,
+        "gscholar": 258
+    },
+    {
+        "firstname": "Cristian",
+        "lastname": "Ruz",
+        "age": 39,
+        "ns1": 129,
+        "ns2": 178,
+        "gscholar": 133
+    },
+    {
+        "firstname": "Álvaro",
+        "lastname": "Soto",
+        "age": 47,
+        "ns1": 71,
+        "ns2": 105,
+        "gscholar": 1669
+    }
+]
