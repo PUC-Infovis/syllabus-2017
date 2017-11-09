@@ -1,0 +1,159 @@
+{
+    "name": "InfoVis",
+    "children" : [
+        {
+            "name": "Profesor",
+            "children": [
+                {
+                    "name": "Denis",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "name": "Ayudantes",
+            "children": [
+                {
+                    "name": "Fernando",
+                    "value": 5
+                },
+                {
+                    "name": "Nebil",
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "name": "Grupos",
+            "children": [
+                {
+                    "name": "Grupo 1",
+                    "children": [
+                        {
+                            "name": "Hernan",
+                            "value": 1
+                        },
+                        {
+                            "name": "Freddie",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Grupo 2",
+                    "children": [
+                        {
+                            "name": "Diego",
+                            "value": 1
+                        },
+                        {
+                            "name": "Alex",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Grupo 3",
+                    "children": [
+                        {
+                            "name": "Cristóbal",
+                            "value": 1
+                        },
+                        {
+                            "name": "Andrés",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Grupo 4",
+                    "children": [
+                        {
+                            "name": "Daniela",
+                            "value": 1
+                        },
+                        {
+                            "name": "Vicente",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Grupo 5",
+                    "children": [
+                        {
+                            "name": "Isaac",
+                            "value": 1
+                        },
+                        {
+                            "name": "Luis",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Grupo 6",
+                    "children": [
+                        {
+                            "name": "Juan",
+                            "value": 1
+                        },
+                        {
+                            "name": "Arturo",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Grupo 7",
+                    "children": [
+                        {
+                            "name": "Andrés",
+                            "value": 1
+                        },
+                        {
+                            "name": "Christian",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Grupo 8",
+                    "children": [
+                        {
+                            "name": "Raimundo",
+                            "value": 1
+                        },
+                        {
+                            "name": "Sebastián",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Grupo 9",
+                    "children": [
+                        {
+                            "name": "Vicente",
+                            "value": 1
+                        },
+                        {
+                            "name": "Constanza",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Grupo 10",
+                    "children": [
+                        {
+                            "name": "Germán",
+                            "value": 1
+                        }
+                    ]
+                }
+                
+            ]
+        }
+    ]
+}

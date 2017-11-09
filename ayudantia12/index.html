@@ -1,0 +1,106 @@
+<!-- Ejemplos adaptados y recopilados desde https://github.com/d3/d3-hierarchy -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>D3 Hierarchy</title>
+    <style media='screen'>
+        body {
+            margin: 5em auto;
+            max-width: 900px;
+            font-family: Ubuntu, sans-serif;
+        }
+
+        .node circle {
+            fill: rgb(255, 72, 0);
+        }
+
+        .node text {
+            font: 10px sans-serif;
+        }
+
+        .node--internal circle {
+            fill: rgb(131, 16, 16);
+        }
+
+        .node--internal text {
+            text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+        }
+
+        .link {
+            fill: none;
+            stroke: rgb(131, 16, 16);
+            stroke-opacity: 0.4;
+            stroke-width: 1.5px;
+        }
+    </style>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js' charset='utf-8'></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+</head>
+
+<body>
+    <div id='container'>
+        <h1><i>Idioms</i> para jerarquía y
+            <i>d3-hierarchy</i>
+        </h1>
+
+        <h2>
+            <i>Node-link diagrams</i>
+        </h2>
+        <p> Diagrama de topologia que utiliza marcas discretas para nodos y enlaces. </p>
+
+        <h3>
+            <i>Tree</i>
+        </h3>
+        <p> Sigue el orden jerárquico y mantiene cada nivel de profundidad alineado. </p>
+        <svg id='tree'></svg>
+
+
+        <h3>
+            <i>Cluster (Dendrogram)</i>
+        </h3>
+        <p> Sigue el orden jerárquico pero alinea los nodos más profundos (hojas). </p>
+        <svg id='cluster'></svg>
+
+
+        <h2>
+            <i>Adjacency diagrams</i>
+        </h2>
+        <p> Diagrama que representa topología usando posición relativa entre nodos. </p>
+
+        <h3>
+            <i>Partition</i>
+        </h3>
+        <p> Puede utilizarse un rectangulo como marca y usar área como <i>encoding</i> para algún atributo. </p>
+        <svg id='partition'></svg>
+
+
+        <h2>
+            <i>Enclosure diagrams</i>
+        </h2>
+        <p> Diagrama que representa topología usando contención entre elementos y utiliza el área como
+            <i>encoding</i>
+            para algún atributo.
+        </p>
+
+        <h3>
+            <i>Treemap</i>
+        </h3>
+        <p> Subdivide el espacio recursivamente en rectangulos. Es un <i>enclosure diagram</i> eficiente en espacio.</p>        
+        <svg id='treemap'></svg>
+
+
+        <h3>
+            <i>Pack</i>
+        </h3>
+        <p> Subdivide el espacio recursivamente en paquetes circulares. Menos eficiente en espacio pero comunica más efectivamente
+            la contención.</p>
+        <svg id='pack'></svg>
+
+        
+    </div>
+    <script src='script.js' charset='utf-8'></script>
+</body>
+
+</html>
